@@ -1,7 +1,7 @@
 ---
 title: KeyMagic 1.5.1 – OSX Installer (August 31, 2016)
 date: 2019-03-01 17:13:00 +06:30
-url: "/uploads/KeyMagic-v2.0Pre-4.exe"
+file: "/uploads/KeyMagic-v2.0Pre-4.exe"
 ---
 
 ## What's New In Version 1.5.1
