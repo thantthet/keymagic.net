@@ -31,3 +31,6 @@ defaults:
 description: Smart Complex Script IME
 theme: minima
 permalink: pretty
+header_pages:
+  - downloads.markdown
+  - faq.markdown
