@@ -19,10 +19,10 @@ defaults:
     layout: post
     permalink: "/posts/:title/"
 - scope:
-    path: downloads
-    type: pages
+    path: ''
+    type: downloads
   values:
-    layout: page
+    layout: download
 - scope:
     path: ''
     type: pages
