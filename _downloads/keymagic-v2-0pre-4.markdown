@@ -5,7 +5,7 @@ categories:
 - windows
 tags:
 - preview
-url: "/uploads/KeyMagic-v2.0Pre-4.exe"
+file: "/uploads/KeyMagic-v2.0Pre-4.exe"
 changelog:
 - Fix - Unable to type keys that to be typed combining switch and shift
 layout: page
