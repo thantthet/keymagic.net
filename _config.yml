@@ -1,7 +1,6 @@
 ---
 title: KeyMagic
 timezone: Asia/Rangoon
-description: Smart Complex Script IME
 collections:
   downloads:
     title: Downloads
@@ -29,5 +28,6 @@ defaults:
     type: pages
   values:
     layout: page
+description: Smart Complex Script IME
 theme: minima
 permalink: pretty
