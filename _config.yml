@@ -1,0 +1,31 @@
+---
+title: KeyMagic
+timezone: Asia/Rangoon
+collections:
+  downloads:
+    title: Downloads
+    output: true
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: downloads
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
