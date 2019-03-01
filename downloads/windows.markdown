@@ -1,5 +1,5 @@
 ---
-title: Windows
+title: Windows Downloads
 ---
 
 ### Recommended For Windows 10 And Later Users
