@@ -1,5 +1,6 @@
 ---
 title: KeyMagic
+theme: minima
 timezone: Asia/Rangoon
 collections:
   downloads:
