@@ -8,7 +8,6 @@ tags:
 file: "/uploads/KeyMagic-v2.0Pre-4.exe"
 changelog:
 - Fix that unable to type keys that to be typed combining switch and shift
-layout: download
 ---
 
 This is the preview version of upcoming KeyMagic v2.
