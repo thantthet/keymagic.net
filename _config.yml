@@ -33,4 +33,5 @@ theme: minima
 permalink: pretty
 header_pages:
 - downloads.markdown
+- installation.markdown
 - faq.markdown
