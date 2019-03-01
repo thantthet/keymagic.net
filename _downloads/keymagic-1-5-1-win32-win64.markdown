@@ -1,7 +1,10 @@
 ---
 title: KeyMagic 1.5.1 – Win32/Win64
 date: 2019-03-01 20:58:00 +06:30
+categories:
+- windows
 file: "/uploads/KeyMagic-1.5.1-Installer.exe"
+layout: page
 ---
 
 Install the following links first or KeyMagic won't run well.
