@@ -19,6 +19,3 @@ Recommended for Windows 10 users that having problems using KeyMagic v1.5.
 Since this is the preview version. This release is not complete in feature. You can report bug at https://github.com/thantthet/keymagic/issues/new
 
 You can also request features you want to see in this KeyMagic V2.
-
-## Changelog
-### V2.0 Preview 4
