@@ -1,4 +1,0 @@
-{%- assign path = include.post | prepend: "_downloads/" -%}
-{%- assign post = site.downloads | where: "path", path | first -%}
-
-<a class="download-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
