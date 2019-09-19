@@ -1,12 +1,12 @@
 ---
-title: KeyMagic 1.5.1 – OSX Installer (August 31, 2016)
+title: KeyMagic 1.5.2 – OSX Installer (August 31, 2016)
 date: 2019-03-01 17:13:00 +06:30
-file: "/uploads/KeyMagic-v2.0Pre-4.exe"
+link: "https://github.com/thantthet/keymagic/releases/tag/macos-1.5.2"
 ---
 
-## What's New In Version 1.5.1
-* Stability Improvements
-* KeyMagic is now categorized as Multi-Language in Input Sources
+## What's New In Version 1.5.2
+* Minor fixes
+* Replaced Myanmar 3 Keyboard with Pyidaungsu MM
 
 ### Included Keyboard Layouts
 1. Myanmar3std

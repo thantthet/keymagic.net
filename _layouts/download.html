@@ -20,7 +20,11 @@ layout: default
       </ul>
     {% endif %}
 
+    {% if page.file %}
     <a class="btn is-primary" href="{{ page.file | relative_url }}">Download</a>
+    {% else if page.link %}
+    <a class="btn is-primary" href="{{ page.link }}">Download</a>
+    {% endif %}    
   </div>
 
 </article>
