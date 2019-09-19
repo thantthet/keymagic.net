@@ -36,4 +36,5 @@ header_pages:
   - installation.markdown
   - faq.markdown
   - github.markdown
+  - report.markdown
 google_analytics: UA-5530678-2
