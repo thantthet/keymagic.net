@@ -34,6 +34,7 @@ permalink: pretty
 header_pages:
   - downloads.markdown
   - installation.markdown
+  - keyboards.markdown
   - faq.markdown
   - github.markdown
   - report.markdown
