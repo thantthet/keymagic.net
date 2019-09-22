@@ -3,7 +3,7 @@ title: FAQ
 date: 2019-03-01 17:43:00 +06:30
 ---
 
-## Mac OS X
+## Mac OS X <i class="fab fa-apple"></i>
 
 ### I cannot turn off KeyMagic at login window (Note: **Issue solved in macOS Sierra**)
 
@@ -25,7 +25,7 @@ Go to System `Preferences > Notifications > KeyMagic`. Set alert style to None.
 
 ---
 
-## Windows
+## Windows <i class="fab fa-windows"></i>
 
 ### I get runtime error when starting KeyMagic
 
