@@ -1,6 +1,6 @@
 ---
 title: FAQ
-date: 2019-03-01 17:43:00 +06:30
+date:  2019-09-23 17:27:59 +06:30
 ---
 
 ## Mac OS X <i class="fab fa-apple"></i>
@@ -21,7 +21,9 @@ This is known bug and still figuring out for a fix. In the meantime, you can kil
 
 ### I don't like notifications being shown up when I switch keyboards
 
-Go to System `Preferences > Notifications > KeyMagic`. Set alert style to None.
+Sure, you can disable
+1. Go to `System Preferences > Notifications > KeyMagic`.
+2. Set alert style to None.
 
 ---
 
