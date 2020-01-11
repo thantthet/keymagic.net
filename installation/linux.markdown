@@ -6,8 +6,6 @@ date: 2019-03-01 17:23:00 +06:30
 ## Linux Keymagic with iBus Engine 
 - Debian, Ubuntu, Mint, Kali and other Debian base, Arch Linxu, Redhat, CentOS, Fedora and other RPM base Linux Disro . See Installing to start using KeyMagic today!
 
-[![K|Keymagic](https://keymagic.net/wp-content/uploads/2016/02/cropped-687474703a2f2f73697465732e676f6f676c652e636f6d2f736974652f7468616e74746865746b7a2f6b65792e706e67-1-32x32.png)](https://keymagic.net/)
-
 You may use one of the following methods to install KeyMagic on Ubuntu. These may also work for other Debian based Linux OSes. Thanks to Ko Ko Ye and Ubuntu-MM for providing packages.
 
 ### Ubuntu - Installing from kokoye2007 PPA
