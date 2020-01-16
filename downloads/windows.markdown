@@ -2,7 +2,6 @@
 title: Windows Downloads
 ---
 
-| [Windows 10 and later users][win10] | [Windows XP and later users][winXP] |
+[<i class="fab fa-github fa-5x"></i> Download from Github][latest]
 
-[win10]: https://github.com/thantthet/keymagic/releases/tag/windows-2.0.0.9
-[winXP]: https://github.com/thantthet/keymagic/releases/tag/windows-1.5.1
+[latest]: https://github.com/thantthet/keymagic/releases/tag/windows-2.0.0.9
