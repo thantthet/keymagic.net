@@ -9,6 +9,10 @@ date: 2019-03-01 17:27:00 +06:30
 
 | [<i class="fab fa-app-store-ios fa-5x"></i> iOS][5] | [<i class="fab fa-google-play fa-5x"></i> Android][6] |
 
+# Keyboard Creator
+
+Download [kEditor][7] for creating and testing KeyMagic keyboards.
+
 [1]: {% link downloads/windows.markdown %}
 [2]: {% link downloads/macos.markdown   %}
 [3]: {% link downloads/ubuntu.markdown  %}
@@ -16,3 +20,4 @@ date: 2019-03-01 17:27:00 +06:30
 
 [5]: https://apps.apple.com/us/app/ttkeyboard/id919884616
 [6]: https://play.google.com/store/apps/details?id=com.myopenware.ttkeyboard.latin&hl=en
+[7]: https://github.com/thantthet/keymagic/releases/tag/windows-editor-2.1.0.0
