@@ -13,7 +13,7 @@ Here are some download link to additional keyboards:
 
 1. [Ours-SHAN](https://github.com/thantthet/keymagic-keyboards/raw/master/Ours/OU-Shan.km2)
 1. [Mon](https://github.com/thantthet/keymagic-keyboards/raw/master/Mon-Anonta/Mon.km2)
-1. [PaOh]https://github.com/thantthet/keymagic-keyboards/raw/master/PaOh/PaOh.km2
+1. [PaOh](https://github.com/thantthet/keymagic-keyboards/raw/master/PaOh/PaOh.km2)
 
 ## How to install keyboard
 
