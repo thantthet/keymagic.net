@@ -9,6 +9,12 @@ Keyboards are now collected in [github repository][1]. You can find the keyboard
 
 > `kms` files are keyboard source files and only keyboard developers may find it interesting.
 
+Here are some download link to additional keyboards:
+
+1. [Ours-SHAN](https://github.com/thantthet/keymagic-keyboards/raw/master/Ours/OU-Shan.km2)
+1. [Mon](https://github.com/thantthet/keymagic-keyboards/raw/master/Mon-Anonta/Mon.km2)
+1. [PaOh]https://github.com/thantthet/keymagic-keyboards/raw/master/PaOh/PaOh.km2
+
 ## How to install keyboard
 
 ### Windows
