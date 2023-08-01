@@ -14,4 +14,9 @@ date: 2019-03-01 17:21:00 +06:30
 5. Installation is finished. Select KeyMagic from Input menu and start using it.
 6. You can use Hotkey (`⌘+Space` OR `Control+Space`) to switch KeyMagic's keyboard layouts.
 
+
+_Tip: look for KeyMagic by typing in search box_
+
+![keyboards](/assets/img/installation/macos/input-sources.png)
+
 [here]: {% link downloads/macos.markdown %}

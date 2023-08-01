@@ -28,6 +28,10 @@ defaults:
     type: pages
   values:
     layout: page
+- scope:
+    path: 'assets/img'
+  values:
+    image: true
 description: Smart Complex Script IME
 theme: minima
 permalink: pretty
