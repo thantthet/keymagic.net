@@ -11,3 +11,5 @@ Download from [<i class="fab fa-github"></i>Github][latest]
 ## KeyMagic 3 Beta
 
 Try the beta release of the upcoming KeyMagic 3: [<i class="fab fa-github"></i> KeyMagic 3 Beta Releases](https://github.com/thantthet/keymagic-3/releases/)
+
+![KeyMagic 3 Windows Screenshot](/assets/screenshots/keymagic3-windows-v0.0.3.png)
