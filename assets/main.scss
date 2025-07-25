@@ -1,32 +1,28 @@
 ---
 ---
-
 @import "minima";
 
-.download-link {
-	font-size: 1.5em;
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom right, #dbeafe, #e0e7ff, #fbcfe8);
+  color: #111;
+  margin: 0;
+  padding: 0;
 }
 
-.btn {
-	border: 1px solid grey;
-	padding: 10px 30px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 1em;
+.glass-card {
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem 0;
+}
 
-	&:hover {
-		color: white;
-		text-decoration: none;
-	}
-
-	&.is-primary {
-		color: white;
-		border: none;
-		background-color: #1756a9;
-	}
-
-	&.is-small {
-		padding: 5px 15px;
-	}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
 }
