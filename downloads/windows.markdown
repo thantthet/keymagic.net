@@ -4,14 +4,24 @@ title: Windows Downloads
 
 ## KeyMagic 2
 
-Download from [<i class="fab fa-github"></i>Github][latest]
-
-[latest]: https://github.com/thantthet/keymagic/releases/tag/windows-2.0.1.0
+<div class="glass-card">
+  <p>
+    Download KeyMagic 2 from
+    <a href="https://github.com/thantthet/keymagic/releases/tag/windows-2.0.1.0">
+      <i class="fab fa-github"></i> Github
+    </a>
+  </p>
+</div>
 
 ## KeyMagic 3 Beta
 
-Try the beta release of the upcoming KeyMagic 3: [<i class="fab fa-github"></i> KeyMagic 3 Beta Releases](https://github.com/thantthet/keymagic-3/releases/)
-
-![KeyMagic 3 Windows Screenshot](/assets/screenshots/keymagic3-windows-v0.0.5.png)
-
-![Windows System Tray Screenshot](/assets/screenshots/keymagic-in-system-tray.png)
+<div class="glass-card">
+  <p>
+    Try the beta release of the upcoming KeyMagic 3:
+    <a href="https://github.com/thantthet/keymagic-3/releases/">
+      <i class="fab fa-github"></i> KeyMagic 3 Beta Releases
+    </a>
+  </p>
+  <img src="/assets/screenshots/keymagic3-windows-v0.0.5.png" alt="KeyMagic 3 Windows Screenshot">
+  <img src="/assets/screenshots/keymagic-in-system-tray.png" alt="Windows System Tray Screenshot">
+</div>
