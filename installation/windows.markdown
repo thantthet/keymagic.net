@@ -3,12 +3,17 @@ title: Installation on Windows
 date: 2019-03-01 17:19:00 +06:30
 ---
 
-1. Download the latest KeyMagic installer from [here].
-2. Double-click and run the downloaded installer file and the installer will guide you through the installation.
-3. Make sure to check **Launch KeyMagic** and click Finish.
-4. You will see KeyMagic tray icon near the clock. (On Windows7, click up-arrow beside tray icons and drag KeyMagic near the clock to always see KeyMagic icon.)
-
-### Tips
-* Left-click tray icon and right-click on the tray icon to access menu.
-
-[here]: {% link downloads/windows.markdown %}
+<div class="glass-card">
+  <ol>
+    <li>Download the latest KeyMagic installer from <a href="{% link downloads/windows.markdown %}">here</a>.</li>
+    <li>Double-click the downloaded installer file and follow the on-screen instructions.</li>
+    <li>When prompted, check <strong>Launch KeyMagic</strong> and click Finish.</li>
+    <li>After installation, you will see the KeyMagic tray icon near the clock.<br>
+      <small>(On Windows 7, click the up-arrow beside the tray icons and drag the KeyMagic icon near the clock to keep it visible.)</small>
+    </li>
+  </ol>
+  <h3>Tips</h3>
+  <ul>
+    <li>Left-click or right-click the tray icon to access the menu.</li>
+  </ul>
+</div>
