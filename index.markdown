@@ -3,7 +3,6 @@ title: KeyMagic
 date: 2019-03-01 16:40:00 +06:30
 ---
 
-<div class="glass-card">
 **KeyMagic** Unicode Keyboard Input Customizer – is a smart keyboard input method editor for complex script languages. KeyMagic is an opensource project!
 
 * Designed for typing complex scripts
@@ -18,4 +17,3 @@ date: 2019-03-01 16:40:00 +06:30
 * Cross-platform support:
   * Windows, MacOSX and Linux.
   * See [Installation](/installation) to start using KeyMagic today!
-</div>
