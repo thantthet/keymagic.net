@@ -1,8 +1,10 @@
 ---
 title: macOS Downloads
-date: 2019-09-23 17:21:42 +06:30
+date: 2021-09-29 15:21:42 +06:30
 ---
 
-### [macOS Installer](https://github.com/thantthet/keymagic/releases/tag/macos-1.5.4)
+### [Download](https://github.com/thantthet/keymagic/releases/tag/macos-1.5.6) macOS Installler
 
-⚠️ This version will remove all installed keyboards in `~/.keymagic` and replace with included keyboards. Please backup your keyboard if you are using keyboards other than included keyboards.
+- Installation could be failed when you install only for current user and previous version was installed for all users. To fix this either
+  1. Install for all users or
+  2. Delete manually `/Library/Input Methods/KeyMagic.app` and try to install again.

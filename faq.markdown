@@ -9,7 +9,9 @@ date:  2019-09-23 17:27:59 +06:30
 
 KeyMagic has no control of switching on/off input methods on macOS. This likely to be a bug of macOS itself.
 
-You can at least avoid this issue by selecting `System Preferences > Users & Group > Login Options > Show Input menu in login window`. (but not always work)
+**Prevention:** You can avoid this issue by selecting `System Preferences > Users & Group > Login Options > Show Input menu in login window`. (but not always work 🤷‍♂️)
+
+**Workaround:** You can do a hard shutdown/restart your mac when you are already stuck at login screen.
 
 ### How to install keyboard layouts?
 

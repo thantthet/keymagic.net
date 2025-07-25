@@ -2,7 +2,16 @@
 title: Windows Downloads
 ---
 
-| [Windows 10 and later users][win10] | [Windows XP and later users][winXP] |
+## KeyMagic 2
 
-[win10]: https://github.com/thantthet/keymagic/releases/tag/windows-2.0.0.7
-[winXP]: https://github.com/thantthet/keymagic/releases/tag/windows-1.5.1
+Download from [<i class="fab fa-github"></i>Github][latest]
+
+[latest]: https://github.com/thantthet/keymagic/releases/tag/windows-2.0.1.0
+
+## KeyMagic 3 Beta
+
+Try the beta release of the upcoming KeyMagic 3: [<i class="fab fa-github"></i> KeyMagic 3 Beta Releases](https://github.com/thantthet/keymagic-3/releases/)
+
+![KeyMagic 3 Windows Screenshot](/assets/screenshots/keymagic3-windows-v0.0.5.png)
+
+![Windows System Tray Screenshot](/assets/screenshots/keymagic-in-system-tray.png)
