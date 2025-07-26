@@ -3,9 +3,26 @@ title: Installation
 date: 2019-03-01 21:40:00 +06:30
 ---
 
-| [<i class="fab fa-windows"></i> Windows][1] | [<i class="fab fa-apple"></i> macOS][2] | [<i class="fab fa-ubuntu"></i> Ubuntu][3] | [<i class="fab fa-linux"></i> Linux][4] |
-
-[1]: {% link installation/windows.markdown %}
-[2]: {% link installation/macos.markdown   %}
-[3]: {% link installation/ubuntu.markdown  %}
-[4]: {% link installation/linux.markdown  %}
+<!-- Platform Downloads (2x3 grid) -->
+<div class="card-grid download-cards">
+  <a class="card" href="{% link installation/windows.markdown %}">
+    <i class="card-icon fab fa-windows"></i>
+    <h3 class="card-title">Windows</h3>
+  </a>
+  
+  
+  <a class="card" href="{% link installation/macos.markdown %}">
+    <i class="card-icon fab fa-apple"></i>
+    <h3 class="card-title">macOS</h3>
+  </a>
+  
+  <a class="card" href="{% link installation/ubuntu.markdown %}">
+    <i class="card-icon fab fa-ubuntu"></i>
+    <h3 class="card-title">Ubuntu</h3>
+  </a>
+  
+  <a class="card" href="{% link installation/linux.markdown %}">
+    <i class="card-icon fab fa-linux"></i>
+    <h3 class="card-title">Linux</h3>
+  </a>
+</div>
