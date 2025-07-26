@@ -1,0 +1,386 @@
+// Glassmorphism Overlay for Minima Jekyll Theme
+// Add this to your _sass/minima/custom-styles.scss or create a new file
+
+// Base glassmorphism variables
+:root {
+  --glass-bg: rgba(255, 255, 255, 0.25);
+  --glass-border: rgba(255, 255, 255, 0.35);
+  --glass-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+  --glass-backdrop: blur(10px);
+  --soft-light-overlay: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.2) 0%, 
+    rgba(255, 255, 255, 0.15) 50%, 
+    rgba(158, 158, 255, 0.15) 100%);
+  --soft-accent: rgba(120, 119, 198, 0.5);
+}
+
+// Dark theme variables
+@media (prefers-color-scheme: dark) {
+  :root {
+    --glass-bg: rgba(255, 255, 255, 0.18);
+    --glass-border: rgba(255, 255, 255, 0.25);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    --soft-light-overlay: linear-gradient(135deg, 
+      rgba(255, 255, 255, 0.12) 0%, 
+      rgba(255, 255, 255, 0.08) 50%, 
+      rgba(158, 158, 255, 0.1) 100%);
+    --soft-accent: rgba(120, 119, 198, 0.4);
+  }
+}
+
+// Base body styling for glassmorphism effect
+body {
+  background: linear-gradient(135deg, #74b9ff 0%, #6c5ce7 100%);
+  min-height: 100vh;
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--soft-light-overlay);
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+// Post container glassmorphism
+.post,
+article.post {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border: 1px solid var(--glass-border);
+  border-radius: 20px;
+  box-shadow: var(--glass-shadow);
+  padding: 2rem;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+  
+  // Soft light overlay for posts
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--soft-light-overlay);
+    pointer-events: none;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  
+  // Subtle animation on hover
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(31, 38, 135, 0.25);
+    border-color: var(--soft-accent);
+  }
+}
+
+// Post header glassmorphism
+.post-header {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border: 1px solid var(--glass-border);
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+      rgba(255, 255, 255, 0.2) 0%, 
+      rgba(255, 255, 255, 0.1) 100%);
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .post-title {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-meta {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9rem;
+  }
+}
+
+// Post content glassmorphism
+.post-content {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border: 1px solid var(--glass-border);
+  border-radius: 15px;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--soft-light-overlay);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: -1;
+  }
+  
+  // Text styling for better contrast
+  color: rgba(255, 255, 255, 0.95);
+  line-height: 1.7;
+  
+  p {
+    margin-bottom: 1.2rem;
+  }
+  
+  // Code blocks
+  pre, code {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+  
+  blockquote {
+    background: rgba(255, 255, 255, 0.05);
+    border-left: 4px solid var(--soft-accent);
+    backdrop-filter: blur(8px);
+    border-radius: 0 8px 8px 0;
+  }
+}
+
+// Heading styles with glassmorphism
+// .post-content h1,
+// .post h1 {
+//   background: var(--glass-bg);
+//   backdrop-filter: var(--glass-backdrop);
+//   -webkit-backdrop-filter: var(--glass-backdrop);
+//   border: 1px solid var(--glass-border);
+//   border-radius: 12px;
+//   padding: 1rem 1.5rem;
+//   margin: 2rem 0 1.5rem 0;
+//   color: rgba(255, 255, 255, 0.95);
+//   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+//   position: relative;
+//   overflow: hidden;
+//   
+//   &::before {
+//     content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     background: linear-gradient(135deg, 
+//       rgba(255, 255, 255, 0.1) 0%, 
+//       rgba(158, 158, 255, 0.08) 100%);
+//     pointer-events: none;
+//     z-index: -1;
+//   }
+// }
+
+.post-content h2,
+.post h2 {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border: 1px solid var(--glass-border);
+  border-radius: 10px;
+  padding: 0.8rem 1.2rem;
+  margin: 1.8rem 0 1.2rem 0;
+  color: rgba(255, 255, 255, 0.92);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+      rgba(255, 255, 255, 0.08) 0%, 
+      rgba(158, 158, 255, 0.06) 100%);
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+.post-content h3,
+.post h3 {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  margin: 1.5rem 0 1rem 0;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+      rgba(255, 255, 255, 0.06) 0%, 
+      rgba(158, 158, 255, 0.04) 100%);
+    pointer-events: none;
+    z-index: -1;
+  }
+}
+
+// Table glassmorphism styling
+.post-content table,
+.post table,
+table {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 2rem 0;
+  width: 100%;
+  box-shadow: var(--glass-shadow);
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--soft-light-overlay);
+    pointer-events: none;
+    opacity: 0.3;
+    z-index: -1;
+  }
+  
+  thead {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    
+    th {
+      color: rgba(255, 255, 255, 0.95);
+      font-weight: 600;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      padding: 1rem;
+      border-bottom: 2px solid var(--soft-accent);
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
+      
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+  
+  tbody {
+    tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      transition: all 0.2s ease;
+      
+      &:hover {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(16px);
+      }
+      
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+    
+    td {
+      color: rgba(255, 255, 255, 0.85);
+      padding: 0.8rem 1rem;
+      border-right: 1px solid rgba(255, 255, 255, 0.06);
+      
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}
+
+// Additional styling for better mobile experience
+@media (max-width: 768px) {
+  .post,
+  article.post {
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 15px;
+  }
+  
+  .post-header {
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+  }
+  
+  .post-content {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+  
+  .post-content h1,
+  .post h1 {
+    padding: 0.8rem 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .post-content h2,
+  .post h2 {
+    padding: 0.6rem 0.8rem;
+    font-size: 1.3rem;
+  }
+  
+  .post-content h3,
+  .post h3 {
+    padding: 0.5rem 0.8rem;
+    font-size: 1.1rem;
+  }
+  
+  table {
+    font-size: 0.9rem;
+    
+    th, td {
+      padding: 0.6rem 0.8rem;
+    }
+  }
+}
+
+// Smooth transitions for all glassmorphism elements
+* {
+  transition: backdrop-filter 0.3s ease, 
+              background-color 0.3s ease, 
+              border-color 0.3s ease,
+              transform 0.3s ease;
+}
