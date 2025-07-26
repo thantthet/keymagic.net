@@ -22,12 +22,12 @@
     <h3 class="card-title">Linux</h3>
   </a>
   
-  <a class="card" href="">
+  <a class="card" href="https://apps.apple.com/us/app/ttkeyboard/id919884616">
     <i class="card-icon fab fa-app-store-ios"></i>
     <h3 class="card-title">iOS (TTKeyboard)</h3>
   </a>
   
-  <a class="card" href="">
+  <a class="card" href="https://play.google.com/store/apps/details?id=com.myopenware.ttkeyboard.latin&hl=en">
     <i class="card-icon fab fa-android"></i>
     <h3 class="card-title">Android (TTKeyboard)</h3>
   </a>
