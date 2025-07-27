@@ -5,7 +5,6 @@ date: 2019-03-01 16:40:00 +06:30
 
 ![keymagic-icon](./assets/icons/keymagic.png) **KeyMagic** Unicode Keyboard Input Customizer – is a smart keyboard input method editor for complex script languages. KeyMagic is an opensource project!
 
-
 * Designed for typing complex scripts
 * Keyboard layout specific hotkeys
 * Works system-wide with all applications:

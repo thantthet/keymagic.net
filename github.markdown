@@ -5,7 +5,6 @@ date: 2019-10-19 17:43:00 +06:30
 
 # Explore and star our Github repositories!
 
-
 ### ![keymagic-icon](./assets/icons/keymagic.png) [KeyMagic 2](https://github.com/thantthet/keymagic) 
 Give us stars at [github repository](https://github.com/thantthet/keymagic).
 

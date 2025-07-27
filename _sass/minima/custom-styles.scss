@@ -34,7 +34,6 @@ body {
   min-height: 100vh;
   position: relative;
   z-index: 0; 
-
   
   &::before {
     content: '';
@@ -403,7 +402,6 @@ table {
   overflow: hidden;
   z-index: 1; 
 
-  
   // Soft light overlay
   &::before {
     content: '';

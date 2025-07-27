@@ -17,5 +17,4 @@ date: 2019-10-20 21:40:00 +06:30
   {% endfor %}
 </div>
 
-
 ## ![keymagic-icon](./assets/icons/keymagic.png) [Keyboard Layout Repository](https://github.com/thantthet/keymagic-keyboards)
