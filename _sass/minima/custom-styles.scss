@@ -33,6 +33,7 @@ body {
   background: linear-gradient(135deg, #74b9ff 0%, #6c5ce7 100%);
   min-height: 100vh;
   position: relative;
+  z-index: 0; 
   
   &::before {
     content: '';
@@ -60,7 +61,7 @@ article.post {
   margin: 2rem 0;
   position: relative;
   overflow: hidden;
-  
+  z-index: 1; 
   // Soft light overlay for posts
   &::before {
     content: '';
@@ -398,6 +399,7 @@ table {
   padding: 2rem;
   position: relative;
   overflow: hidden;
+  z-index: 1; 
   
   // Soft light overlay
   &::before {
@@ -766,4 +768,29 @@ table {
       margin-bottom: 0.5rem;
     }
   }
+}
+.site-header {
+  z-index: 999;
+  position: relative;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-backdrop);
+  -webkit-backdrop-filter: var(--glass-backdrop);
+  border-bottom: 1px solid var(--glass-border);
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--soft-light-overlay);
+    pointer-events: none;
+    opacity: 0.6;
+    z-index: -1;
+  }
+}
+.page-content {
+  z-index: 1;
+  position: relative;
 }
