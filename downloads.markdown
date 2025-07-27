@@ -1,4 +1,4 @@
-## ![](./favicon/favicon-32x32.png) Downloads
+## ![keymagic-icon](./assets/icons/keymagic.png) Downloads
 
 <!-- Platform Downloads (2x3 grid) -->
 <div class="card-grid download-cards">
@@ -35,14 +35,20 @@
 
 ---
 
-## ![](./favicon/favicon-32x32.png) Development Tools
+## ![keymagic-icon](./assets/icons/keymagic.png) Keyboards
 
 <div class="card-grid tools-cards">
   <a href="{% link keyboards.markdown %}" class="card">
     <i class="card-icon fas fa-keyboard"></i>
     <h3 class="card-title">Keyboard Layout</h3>
   </a>
-  
+</div>
+
+---
+
+## ![keymagic-icon](./assets/icons/keymagic.png) Development Tools
+
+<div class="card-grid tools-cards">
   <a href="https://github.com/thantthet/keymagic/releases/tag/windows-editor-2.1.0.0" class="card">
     <i class="card-icon fas fa-edit"></i>
     <h3 class="card-title">kEdit Download</h3>
