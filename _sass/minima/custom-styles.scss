@@ -166,6 +166,12 @@ article.post {
     border-radius: 8px;
   }
   
+  // Remove background from code when nested in pre
+  pre code {
+    background: none;
+    border: none;
+  }
+  
   blockquote {
     background: rgba(255, 255, 255, 0.05);
     border-left: 4px solid var(--soft-accent);
