@@ -1,4 +1,6 @@
-## ![keymagic-icon](./assets/icons/keymagic.png) Downloads
+---
+title: Downloads
+---
 
 <!-- Platform Downloads (2x3 grid) -->
 <div class="card-grid download-cards">

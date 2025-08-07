@@ -40,6 +40,7 @@ header_pages:
   - downloads.markdown
   - installation.markdown
   - keyboards.markdown
+  - docs.markdown
   - faq.markdown
   - github.markdown
   - report.markdown
