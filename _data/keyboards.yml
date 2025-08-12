@@ -57,3 +57,21 @@
   url: "https://github.com/thantthet/keymagic-keyboards/raw/refs/heads/master/"
   icon: "fas fa-keyboard"
   file: "./Yunghkio/Yunghkio SHAN.km2"
+
+- name: "Sgaw Karen - ksw"
+  author: "Kawhtoolei"
+  url: "https://github.com/thantthet/keymagic-keyboards/raw/refs/heads/master/"
+  icon: "fas fa-keyboard"
+  file: "./Karen/Sgaw-Kawthoolei_ksw/Sgaw-Kawthoolei_ksw.km2"
+
+- name: "Eastern Pwo Karen - kjp"
+  author: "Sa Aung Moe Hein"
+  url: "https://github.com/thantthet/keymagic-keyboards/raw/refs/heads/master/"
+  icon: "fas fa-keyboard"
+  file: "./Karen/Eastern-Pwo_kjp/Eastern-Pwo_kjp.km2"
+
+- name: "Western Pwo Karen"
+  author: "Kawhtoolei"
+  url: "https://github.com/thantthet/keymagic-keyboards/raw/refs/heads/master/"
+  icon: "fas fa-keyboard"
+  file: "./Karen/Western-Pwo_pwo/Western-Pwo_pwo.km2"
