@@ -17,3 +17,6 @@ date: 2019-03-01 16:40:00 +06:30
 * Cross-platform support:
   * Windows, MacOSX and Linux.
   * See [Installation](/installation) to start using KeyMagic today!
+
+### Sponsors
+Free code signing on Windows provided by [SignPath.io](https://about.signpath.io/), certificate by [SignPath Foundation](https://signpath.org/)
