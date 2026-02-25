@@ -1,0 +1,57 @@
+keymagic_3:
+  version: v0.0.10
+  url: https://github.com/thantthet/keymagic-3/releases/tag/v0.0.10
+  platforms:
+    - name: Windows
+      icon: fab fa-windows
+    - name: macOS
+      icon: fab fa-apple
+    - name: Linux
+      icon: fab fa-linux
+
+desktop_clients:
+  - platform: Windows
+    icon: fab fa-windows
+    version: v2.0.1.0
+    url: https://github.com/thantthet/keymagic/releases/tag/windows-2.0.1.0
+  - platform: macOS
+    icon: fab fa-apple
+    version: v1.5.6
+    url: https://github.com/thantthet/keymagic/releases/tag/macos-1.5.6
+  - platform: Ubuntu
+    icon: fab fa-ubuntu
+    version: Latest
+    url: /installation/ubuntu
+  - platform: Linux
+    icon: fab fa-linux
+    version: Source
+    url: /installation/linux
+
+mobile_apps:
+  - name: TTKeyboard for iOS
+    icon: fab fa-app-store-ios
+    url: https://apps.apple.com/us/app/ttkeyboard/id919884616
+    store: App Store
+  - name: TTKeyboard for Android
+    icon: fab fa-google-play
+    url: https://play.google.com/store/apps/details?id=com.myopenware.ttkeyboard.latin&hl=en
+    store: Play Store
+
+developer_tools:
+  name: Keyboard Creator (kEditor)
+  description: The professional tool for creating and testing KeyMagic keyboards. Perfect for layout designers and linguistic researchers.
+  url: https://github.com/thantthet/keymagic/releases/tag/windows-editor-2.1.0.0
+
+installation_platforms:
+  - name: Windows
+    icon: fab fa-windows
+    url: /installation/windows
+  - name: macOS
+    icon: fab fa-apple
+    url: /installation/macos
+  - name: Ubuntu
+    icon: fab fa-ubuntu
+    url: /installation/ubuntu
+  - name: Linux
+    icon: fab fa-linux
+    url: /installation/linux

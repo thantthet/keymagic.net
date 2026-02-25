@@ -38,4 +38,4 @@ date: 2019-03-01 17:21:00 +06:30
   <source src="/assets/vid/installation/macos/howto-macos14.mp4" type="video/mp4">
 </video>
 
-[here]: {% link downloads/macos.markdown %}
+[here]: /downloads

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="container" style="padding-top: 120px; padding-bottom: 6rem;">
+  <div class="page-title-section" style="margin-bottom: 3rem;">
+    <h1 style="font-size: 3.5rem; margin-bottom: 1rem;">{{ page.title }}</h1>
+    {% if page.description %}
+    <p style="font-size: 1.25rem; color: var(--text-secondary);">{{ page.description }}</p>
+    {% endif %}
+  </div>
+
+  <div class="content-body" style="color: var(--text-secondary); line-height: 1.8; font-size: 1.1rem;">
+    {{ content }}
+  </div>
+</article>
+
+<style>
+  .content-body h2 { color: var(--text-primary); margin-top: 3rem; font-size: 2rem; }
+  .content-body h3 { color: var(--text-primary); margin-top: 2rem; font-size: 1.5rem; }
+  .content-body p { margin-bottom: 1.5rem; }
+  .content-body ul, .content-body ol { margin-bottom: 1.5rem; padding-left: 1.5rem; }
+  .content-body li { margin-bottom: 0.5rem; }
+  .content-body a { color: var(--accent-color); text-decoration: none; border-bottom: 1px solid transparent; transition: border-color 0.2s; }
+  .content-body a:hover { border-color: var(--accent-color); }
+  .content-body blockquote { border-left: 4px solid var(--accent-color); padding-left: 1.5rem; margin: 2rem 0; font-style: italic; background: rgba(0,0,0,0.03); padding: 1.5rem 2rem; border-radius: 0 8px 8px 0; }
+  .content-body code { font-family: var(--font-mono); background: rgba(0,0,0,0.05); padding: 0.2rem 0.4rem; border-radius: 4px; font-size: 0.9em; }
+</style>

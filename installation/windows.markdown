@@ -11,4 +11,4 @@ date: 2019-03-01 17:19:00 +06:30
 ### Tips
 * Left-click tray icon and right-click on the tray icon to access menu.
 
-[here]: {% link downloads/windows.markdown %}
+[here]: /downloads
