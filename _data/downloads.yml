@@ -1,6 +1,6 @@
 keymagic_3:
-  version: v0.0.10
-  url: https://github.com/thantthet/keymagic-3/releases/tag/v0.0.10
+  version: v0.0.11
+  url: https://github.com/thantthet/keymagic-3/releases/tag/v0.0.11
   platforms:
     - name: Windows
       icon: fab fa-windows
